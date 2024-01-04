@@ -1,0 +1,155 @@
+/*@import url("https://font.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap
+);*/
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    /* font-family: "Poppins", sans-serif; */
+}
+
+/*body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+    background-size: cover;
+    background-position: center;
+} */
+/*header css */
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 15px;
+}
+
+.name{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.caption{
+    background-color: rgb(43, 100, 167);
+    color: white;
+    text-align: center;
+    height: 38px;
+}
+
+
+
+.wrapper{
+    margin-left: 36vw;
+    margin-top: 70px;
+    width: 420px;
+    background: rgb(43, 100, 167);
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #000000;
+    border-radius: 15px;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+   /* width: 100%;*/
+
+    height: 50px;
+    margin: 30px 0;
+} 
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    backdrop-filter: blur(20px);
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #000000;
+}
+
+.wrapper .forget {
+    display: flex;
+    justify-content: center;
+    font-size: 14.5px;
+    color: #000000;
+    margin: -15px 0px 15px;
+}
+
+.forget a {
+    color: #000000;
+    font-weight: 600;
+}
+
+.forget a:hover{
+    text-decoration: underline;
+    
+}
+
+.wrapper .btn {
+    width: 50%;
+    height: 50px;
+    background-color: #1aa4b8;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    margin: 0 85px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+}
+
+.register-link p a {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+/* select[name="usertype"] {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+.input-box select::placeholder{
+    color: #000000;
+} */
+
+.img1{
+    height: 120px;
+    width: 130px;
+}
+.img11{
+    height: 110px;
+    width: 140px;
+}
+

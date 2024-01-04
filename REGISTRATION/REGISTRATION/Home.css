@@ -1,0 +1,298 @@
+
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+  }
+
+/* .img1{
+    height: 120px;
+    width: 130px;
+} */
+/* .img11{
+    height: 110px;
+    width: 140px;
+} */
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+/* .name{
+    text-align: center;
+} */
+
+#cname{
+    color: rgb(43, 100, 167);
+}
+
+#red{
+    color: rgb(165, 51, 57);
+}
+.middle1{
+    height: 40px;
+    width: 100%;
+    background-color:rgb(43,100,167);
+ 
+}
+#portal{
+    text-align:center;
+    font-size: 28px;
+    color: white;
+    padding:10px 20px;
+    padding-top: 5px;
+}
+
+/* Section */
+.middle2{
+    display: flex;
+}
+.navbar{
+ margin-top: 2px;
+    width: 200px;
+
+    height: 75vh;
+    background-color:rgb(43,100,167);
+   
+}
+#topic{
+    font-size: 25px;
+    padding: 20px 60px;
+    color: black;
+}
+.list{
+    text-align: center;
+}
+.direct{
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  padding: 7px 2px;
+}
+
+.list li{
+    border-top: 1px solid rgb(240, 232, 232);
+    padding: 15px 30px;   
+}
+.start{
+    margin-left: 40px;
+    width: 500px;
+}
+.adjust{ 
+    margin-left: 50px;
+    margin-top: 90px;
+}
+
+#online{
+    font-size: 50px;
+    color: rgb(32, 32, 70);
+}
+#cportal{
+    font-size: 50px;
+    color: rgb(32, 32, 70);
+}
+b{
+    color: chocolate;
+}
+#inf{
+    font-size: 20px;
+    text-align: justify;
+}
+#complaint{
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    height: 20px;
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: chocolate;
+}
+
+#complaint:hover{
+    background-color: rgb(255,151,15);
+    text-decoration: underline;
+
+}
+#img3{
+    margin-top: 90px;
+    margin-left: 110px;
+    height: 400px;
+    width: 550px;
+    position: initial;
+}
+
+.check{
+    font-size: 40px;
+    text-align: center;
+}
+
+.cstatus{
+     padding: 20px;
+    margin-bottom: 40px;
+}
+.status{
+    text-align: center;
+}
+
+.status a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+ background-color: rgb(255,151,15);
+
+}
+
+.status a:hover{
+    background-color: chocolate;
+    text-decoration: underline;
+}
+
+footer {
+    background-color:rgb(43,100,167);
+    color: #fff;
+    padding: 20px;
+    }
+    
+    .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+    .footer-section {
+    flex: 1;
+    padding: 10px;
+    }
+  
+    
+    .footer-section h2, .footer-section p {
+    color: #fff;
+    margin: 10px;
+    }
+    
+    .footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: 10px;
+    }
+    
+    .footer-section ul li {
+    margin-bottom: 5px;
+    }
+    
+    .footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    .footer-section.social {
+    display: flex;
+    align-items: center;
+    }
+    
+    .social-icons {
+    display: flex;
+    align-items: center;
+    }
+    
+    .social-icons li {
+    margin-right: 10px;
+    }
+    
+    .social-icons li a {
+    color: #2f097d;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+/*     
+    .fa-facebook-f {
+    background: #3B5998;
+    color: white;
+    }
+    
+    .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    }
+    
+    .fa-instagram {
+    background: #a40768;
+    color: white;
+    }
+    
+    .fa-linkedin {
+    background: #115bc3;
+    color: white;
+    } */
+    
+    .social-icons li a:hover {
+    background-color: #ff6347; /* Change color on hover (example: coral) */
+    }
+    
+    /* .logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    } */
+    
+    .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    }
+    
+    .footer-bottom p {
+    font-size: 14px;
+    }
+    
+    .links li{
+        font-size: 18px;
+    }
+
+    .contact1 li{
+        font-size: 18px;
+    }
+    .header{
+        display: flex;
+        justify-content: space-around;
+        margin: 15px 15px;
+    }
+    
+    .name{
+        text-align: center;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    
+    .caption{
+        background-color: rgb(43, 100, 167);
+        color: white;
+        text-align: center;
+        height: 38px;
+    }
+    
+    .img1{
+        height: 120px;
+        width: 130px;
+      }
+      
+      .img2{
+        height: 110px;
+        width: 140px;
+      }

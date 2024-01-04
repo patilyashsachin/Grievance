@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gravience</title>
+    <link rel="stylesheet" href="complaint.css">
+</head>
+<body>
+    
+    <div id="head"><h1>Register your Complaint here!</h1></div>
+    <main>
+        
+            <div class="main2">
+                <h1>Register a Complaint</h1><br><br>
+                <form action="process_complaint.php" method="post">
+                    <label for="name" id="fo">Name:</label><br>
+                    <input type="text" name="name" id="name" placeholder="Enter your name..." size="40"><br><br>
+                    <label for="email" id="fo">Email:</label><br>
+                    <input type="text" name="email" id="email" placeholder="Enter your Email..." size="40"><br><br>
+                    <label for="contact" id="fo">Contact Number:</label><br>
+                    <input type="text" name="contact" id="contact" placeholder="Enter your Contact..." size="40"><br><br>
+                    <label for="complaint" id="fo">Complaint:</label><br>
+                    <textarea name="complaint" id="complaint" cols="39" rows="5" placeholder="Enter your Complaint here....."></textarea><br><br>
+                    <input id="sub" type="submit">
+                </form>
+            </div>
+        
+    </main>
+</body>
+</html>

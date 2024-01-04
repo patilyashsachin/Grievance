@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    background-color: rgb(43, 100, 167);
+    padding: 15px 0;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius:5px;
+    
+  }
+
+  th,td,table{
+    border:2.3px solid black;
+    border-collapse:collapse;
+    padding: 10px;
+  }
